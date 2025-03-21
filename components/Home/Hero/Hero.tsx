@@ -1,5 +1,4 @@
 import React from "react";
-import MenuBtn from "../Menu/MenuBtn/MenuBtn";
 
 const Hero = () => {
     return (
