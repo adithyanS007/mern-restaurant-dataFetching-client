@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -39,32 +40,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 
-import React from 'react';
-
-const MenuDetails = () => {
-  return (
-    <div>
-      <div className="relative w-full h-[600px] mt-[-310px] bg-[#000000]">
-        {/* Background image with black overlay */}
-        <div
-          className="absolute inset-0 w-full h-full bg-center bg-no-repeat before:absolute before:inset-0 before:bg-black before:opacity-80"
-          style={{
-            backgroundImage: "url('/images/menudetailbg.png')",
-            backgroundSize: "cover", // Full width, maintain aspect ratio
-          }}
-        ></div>
-
-        {/* Rectangular border - Responsive and Centered */}
-        <div className="relative z-10 text-white flex justify-center items-center h-full">
-          <div className="border border-white px-4 py-2 flex justify-center items-center w-[80%] max-w-[1100px] h-[450px] max-h-[1000px] mt-10">
-            <h1 className="text-4xl font-bold text-center">
-              Your Hero Section Text
-            </h1>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-export default MenuDetails;
+=======
+# deepnetsoft-test-client
+>>>>>>> b95d7bf7ac855887f48927eb0878620011b5e603
