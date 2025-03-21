@@ -27,15 +27,16 @@ const MenuBtn: React.FC<MenuBtnProps> = ({ setMenuItems }) => {
 
     switch (normalizedTitle) {
       case "food":
-        return "http://localhost:5000/api/foods";
+        return "https://deepnetsoft-test-server.vercel.app/api/foods"; // Food API route
       case "drinks":
-        return "http://localhost:5000/api/drinks";
+        return "https://deepnetsoft-test-server.vercel.app/api/drinks"; // Drinks API route
       case "brunch":
-        return "http://localhost:5000/api/brunches";
+        return "https://deepnetsoft-test-server.vercel.app/api/brunches"; // Brunch API route
       default:
-        console.error(`No API route found for title: ${title}`);
+        console.error(`No API route found for title: ${normalizedTitle}`);
         return null;
     }
+    
   };
 
   const handleClick = async (id: number, title: string): Promise<void> => {
