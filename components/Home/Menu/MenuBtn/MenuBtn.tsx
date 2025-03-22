@@ -51,6 +51,7 @@ const MenuBtn: React.FC<MenuBtnProps> = ({ setMenuItems }) => {
     try {
       const response = await axios.get(apiRoute);
       setMenuItems(response.data); // Pass the fetched data to the parent
+      console.log(response.data);
     } catch (err) {
       console.error("Error fetching data:", err);
     }
