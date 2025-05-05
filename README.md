@@ -83,6 +83,7 @@ _____Setup Frontend_____
 cd client
 npm install
 npm run dev
+```
 
 🧑‍💻 Author
 Developed by Adithyan S
