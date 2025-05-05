@@ -37,7 +37,7 @@ A full-stack restaurant menu application built with **MERN (MongoDB, Express, Re
 ---
 
 ## 📂 Project Structure
-
+```bash
 project-root/
 │
 ├── client/ # Frontend (Next.js + React)
@@ -59,6 +59,7 @@ project-root/
 ├── .env # MongoDB credentials
 └── README.md
 
+```
 ---
 
 ## 🚀 Getting Started
